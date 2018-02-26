@@ -2,6 +2,9 @@ language: python
 python:
     - 3.6
 
+sudo: false
+dist: trusty
+
 install:
   - pip install pipenv
   - pipenv install --deploy --dev
@@ -17,3 +20,6 @@ addons:
 
 script:
   - make ci-test
+
+cache:
+  apt: true
