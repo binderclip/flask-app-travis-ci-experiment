@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a28e60d6ec10434b5d5c40b6c3d799a45286fc0c6af7e2f5000aa77058933889"
+            "sha256": "d9ee70bc103d122a9f373b0a0bc8109a1f55f8f9ec99c29965b058c636dc661f"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -26,7 +26,21 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "peewee": {
+            "hashes": [
+                "sha256:e2df2de859ca366525430c7f2e4cd5a95029d45872dadc02f9a3403b16fb165e"
+            ],
+            "version": "==3.1.0"
+        },
+        "pymysql": {
+            "hashes": [
+                "sha256:04fa19fad017fdb21394fad2878c1d6bd346959d4fbfd1b66050a09fc636a321",
+                "sha256:32da4a66397077d42908e449688f2ec71c2b18892a6cd04f03ab2aa828a70f40"
+            ],
+            "version": "==0.8.0"
+        }
+    },
     "develop": {
         "attrs": {
             "hashes": [
