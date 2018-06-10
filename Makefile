@@ -1,6 +1,5 @@
 
 ci-test:
-	ci/prepare.sh
 	ci/run_ci_tests.sh
 
 dev-test:

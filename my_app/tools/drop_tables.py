@@ -10,7 +10,7 @@ def main():
         print('no dev or test in MY_APP_CONFIG, exit')
         return
     drop_tables()
-    print('=== drop done ===')
+    print('=== drop tables done ===')
 
 
 if __name__ == '__main__':
